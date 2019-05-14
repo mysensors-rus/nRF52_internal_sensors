@@ -1,4 +1,10 @@
-# nRF52_PWM
-Использование ШИМ со сменой частоты
+# nRF52_internal_sensors
+Задействуем в nRF52 внутненние сенсоры температуры и напряжения.
+Простой код пассивной ноды для MySensors.
 
-[Небольшая заметка на тему ШИМ на nrf52 в среде Arduino](https://telegra.ph/Ispolzuem-SHIMPWM-na-nfr52-v-sisteme-MySensors-02-26)
+**!Внимание!** У меня в файле MyBoardNRF5.h используются не стандартные настройки Serial порта
+
+#define PIN_SERIAL_RX       (30)
+
+#define PIN_SERIAL_TX       (31)
+
